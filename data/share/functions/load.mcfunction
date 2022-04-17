@@ -26,3 +26,6 @@ scoreboard players set 2 const 2
 scoreboard players set 5 const 5
 scoreboard players set 10 const 10
 scoreboard players set 100 const 100
+
+## uuid
+scoreboard objectives add uuid3 dummy
