@@ -15,8 +15,6 @@
     #declare score_holder 100
     #declare storage tmp
 
-
-
 ## 計算用スコア
 scoreboard objectives add _ dummy
 scoreboard players reset * _
@@ -29,3 +27,6 @@ scoreboard players set 100 const 100
 
 ## uuid
 scoreboard objectives add uuid3 dummy
+
+## インベントリチェック用スコア
+scoreboard objectives add check_inventory dummy
