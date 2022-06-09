@@ -18,6 +18,7 @@
     #declare objective check_inventory
     #declare objective const
     #declare objective _
+    #declare objective tmp
     #declare objective mx
     #declare objective my
     #declare objective mz
@@ -30,6 +31,7 @@
 ## 計算用スコア
 scoreboard objectives add _ dummy
 scoreboard players reset * _
+scoreboard objectives add tmp dummy
 
 scoreboard objectives add const dummy
 scoreboard players set 2 const 2
